@@ -1,0 +1,1 @@
+SUBSYSTEM=="tty", SUBSYSTEMS=="usb", ENV{ID_VENDOR} == "1a86", ENV{ID_MODEL_ID} == "7523", SYMLINK+="tty_focuser"
